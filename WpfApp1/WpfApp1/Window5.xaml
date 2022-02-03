@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFC200BC"/>
+                <GradientStop Color="#FFFDFF00" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="Back" HorizontalAlignment="Left" Height="68" Margin="615,314,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click" Background="#FFFF3C3C"/>
+        <TextBlock HorizontalAlignment="Left" Height="42" Margin="81,43,0,0" Text="Данні про розробника:" TextWrapping="Wrap" VerticalAlignment="Top" Width="408" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="147" Margin="81,201,0,0" Text="Розробив Мальцев Микита Ігорович
+                   КП-12                                        
+                   03.02.2022" TextWrapping="Wrap" VerticalAlignment="Top" Width="566" FontSize="24"/>
+
+    </Grid>
+</Window>

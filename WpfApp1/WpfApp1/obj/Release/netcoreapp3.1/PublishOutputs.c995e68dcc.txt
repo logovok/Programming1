@@ -1,0 +1,5 @@
+C:\Users\MNKNTA\Documents\Published\WPF1\WpfApp3.exe
+C:\Users\MNKNTA\Documents\Published\WPF1\WpfApp3.dll
+C:\Users\MNKNTA\Documents\Published\WPF1\WpfApp3.deps.json
+C:\Users\MNKNTA\Documents\Published\WPF1\WpfApp3.runtimeconfig.json
+C:\Users\MNKNTA\Documents\Published\WPF1\WpfApp3.pdb
