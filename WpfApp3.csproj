@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>diamond_computer_pc_sketch_jewelry_icon_193920.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="sog-powerpint-toprope-0.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="sog-powerpint-toprope-0.jpg" />
+  </ItemGroup>
+
+</Project>
