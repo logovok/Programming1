@@ -101,22 +101,23 @@ namespace WPF2Indntfyer
                     string[] wwi = lk[i].Split('|');
                     for (int j = 0; j < wwi.Length; j++)
                     {
-                        if (!wwi[i].Equals("~"))
+                        if (wwi[j].Length>3)
                         {
                             double bS = 0, tT = 0;
-                            //MessageBox.Show(wwi[i]);
-                            bS = Math.Sqrt(8.0 * (dspr[int.Parse(wwi[i].Split(' ')[0])] + double.Parse(wwi[i].Split(' ')[2])) / 17.0);
-                            tT = Math.Abs(double.Parse(wwi[i].Split(' ')[1]) - mItaya[int.Parse(wwi[i].Split(' ')[0])]) / bS;
+                            
+                            bS = Math.Sqrt(8.0 * (dspr[int.Parse(wwi[j].Split(' ')[0])] + double.Parse(wwi[j].Split(' ')[2])) / 17.0);
+                            tT = Math.Abs(double.Parse(wwi[j].Split(' ')[1]) - mItaya[int.Parse(wwi[j].Split(' ')[0])]) / bS;
                             tT = tT * Math.Sqrt(9 / 2);
                             if (tT < nK)
                             {
+                               // MessageBox.Show(posit.ToString());
                                 posit++;
                             }
                             else
                             {
                                 negat++;
                             }
-                            if (Math.Max(dspr[i], double.Parse(wwi[i].Split(' ')[2]))/ Math.Min(dspr[i], double.Parse(wwi[i].Split(' ')[2])) < 6.03)
+                            if (Math.Max(dspr[j], double.Parse(wwi[j].Split(' ')[2]))/ Math.Min(dspr[j], double.Parse(wwi[j].Split(' ')[2])) < 6.03)
                             {
                                 dspron = false;
                             }
@@ -401,7 +402,7 @@ namespace WPF2Indntfyer
                 cou--;
                 //MessageBox.Show("Starting processing if the information. Please wait.", "Attention");
                 sving();
-                tbP.Text = "P = " + (posit > 0 ? posit / (posit + negat) : 0);
+                tbP.Text = "P = " + (posit > 0 ? ((double)posit) / (posit + negat) : 0);
                 posit = 0; negat = 0;
                 dse.Text = dspron ? "Odnoridni dyspersii" : "Neodnoridni dyspersii";
                 dspron = true;
