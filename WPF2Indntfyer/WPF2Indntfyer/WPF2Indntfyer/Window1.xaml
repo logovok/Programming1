@@ -1,0 +1,34 @@
+﻿<Window x:Name="WND1" x:Class="WPF2Indntfyer.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF2Indntfyer"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Repeat">
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform Angle="41" CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="#FFFDFF00"/>
+                <GradientStop Color="White" Offset="0.293"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="BCKBT" Content="BACK" HorizontalAlignment="Left" Height="61" Margin="600,347,0,0" VerticalAlignment="Top" Width="168" FontSize="48" FontFamily="Stencil" Click="Button_Click" Background="#FFFF2C2C"/>
+        <TextBox x:Name="Enterance" HorizontalAlignment="Left" Height="34" Margin="74,153,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" KeyUp="TextBox_KeyUp" FontFamily="Bahnschrift SemiBold" FontSize="26"/>
+        <TextBlock x:Name="TBo" HorizontalAlignment="Left" Height="65" Margin="74,74,0,0" Text="zomelganek" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" FontFamily="Algerian" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="69" Margin="42,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" Text="LearningMode" FontSize="48" FontFamily="Rockwell Condensed"/>
+        <TextBlock x:Name="TBo_Copy" HorizontalAlignment="Left" Height="27" Margin="135,42,0,0" Text="Control word" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" FontFamily="Arial" FontSize="22" Background="#FFFDFF00"/>
+        <TextBox x:Name="nmbot" HorizontalAlignment="Left" Height="24" Margin="174,217,0,0" Text="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Background="#FFE2FF00" FontSize="18" KeyUp="nmbot_KeyUp"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="74,217,0,0" Text="№ of tries" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" FontSize="18"/>
+        <TextBlock x:Name="RMN" HorizontalAlignment="Left" Height="30" Margin="74,246,0,0" Text="3 remaining" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontSize="18"/>
+
+    </Grid>
+</Window>
