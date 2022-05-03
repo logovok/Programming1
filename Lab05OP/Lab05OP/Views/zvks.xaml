@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab05OP.Views.zvks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab05OP.Views"
+        mc:Ignorable="d"
+        Title="zvks" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="DG" HorizontalAlignment="Center" Height="353" VerticalAlignment="Top" Width="780" Margin="0,71,0,0" />
+        <TextBox x:Name="TB" HorizontalAlignment="Center" Height="44" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="10,10,0,0" TextWrapping="Wrap" Text="Date from (yyyy.mm.dd)" VerticalAlignment="Top" Width="240" FontSize="20"/>
+        <Button Content="Go" HorizontalAlignment="Left" Height="56" Margin="550,10,0,0" VerticalAlignment="Top" Width="174" FontSize="22" Click="Button_Click"/>
+
+    </Grid>
+</Window>
