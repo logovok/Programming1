@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lab05OP.Owner"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab05OP"
+        mc:Ignorable="d"
+        Title="Owner" Height="235" Width="298" Closed="CLI">
+    <Grid>
+        <ComboBox x:Name="CB" HorizontalAlignment="Left" Height="28" Margin="10,36,0,0" VerticalAlignment="Top" Width="138" SelectionChanged="CB_SelectionChanged"/>
+        <Button x:Name="B11" Content="Go" HorizontalAlignment="Left" Height="182" Margin="169,13,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click"/>
+        <Button Content="BACK" HorizontalAlignment="Left" Height="182" Margin="228,13,0,0" VerticalAlignment="Top" Width="49" Background="#FFFF5D5D" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="10,8,0,0" TextWrapping="Wrap" Text="Add" VerticalAlignment="Top" Width="138"/>
+        <ComboBox x:Name="CB2" HorizontalAlignment="Left" Height="28" Margin="10,92,0,0" VerticalAlignment="Top" Width="138" SelectionChanged="CB2_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="10,64,0,0" TextWrapping="Wrap" Text="Observe" VerticalAlignment="Top" Width="138"/>
+        <ComboBox x:Name="CB3" HorizontalAlignment="Left" Height="28" Margin="11,161,0,0" VerticalAlignment="Top" Width="138" SelectionChanged="CB3_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="11,132,0,0" TextWrapping="Wrap" Text="Edit/delete" VerticalAlignment="Top" Width="138"/>
+    </Grid>
+</Window>

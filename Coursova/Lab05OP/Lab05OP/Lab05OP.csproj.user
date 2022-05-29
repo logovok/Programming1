@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Adding\Clients.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\Countries.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\Fraht.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\Nakladna.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\Pay4Bills.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\Port.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\RouteSetter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\Vess.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Adding\VessTypes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Client.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\Client.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\Country.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\Fraht.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\Port.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\Route.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\VessNameEd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Fleet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Nakld.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OwnersSee4Bills.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\zvks.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Adding\Clients.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\Countries.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\Fraht.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\Nakladna.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\Pay4Bills.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\Port.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\RouteSetter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\Vess.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Adding\VessTypes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Client.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\Client.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\Country.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\Fraht.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\Port.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\Route.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\VessNameEd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Fleet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Nakld.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OwnersSee4Bills.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\zvks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

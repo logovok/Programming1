@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lab05OP.Client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab05OP"
+        mc:Ignorable="d"
+        Title="Client" Height="97" Width="298" Closed="CLI">
+    <Grid>
+        <ComboBox x:Name="CB" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="138"/>
+        <Button x:Name="B11" Content="Go" HorizontalAlignment="Left" Height="42" Margin="169,13,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click"/>
+        <Button Content="BACK" HorizontalAlignment="Left" Height="42" Margin="228,13,0,0" VerticalAlignment="Top" Width="49" Background="#FFFF5D5D" Click="Button_Click_123"/>
+
+    </Grid>
+</Window>
